@@ -1,0 +1,114 @@
+.header{
+    height: var(--header-height);
+    width: 100%;
+    background-image: linear-gradient(0, #7fad5a, #5d9250);
+}
+
+.header__contain
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--header-height);
+}
+
+.header__logo{
+    
+    font-size: 3.6rem;
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header__logo-sub
+{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+}
+
+.container
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container__avatar{
+    display: flex;
+    justify-content: center;
+}
+
+.container__avatar-img
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.container__name{
+    display:inline-block;
+    width: 100%;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+.container__title{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container__title-list
+{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container__title-item{
+    width: 33%;
+    justify-content: center;
+    text-align: center;
+}
+
+.container__title-item-header{
+    font-size: 1.6rem;
+    text-decoration: italic;
+}
+
+.container__title-item-number
+{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 20px 0 35px;
+}
+
+.container__title-item-img{
+    margin-top: 35px;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.container__title-item-imgMomo
+{
+    width: 180px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.footer
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.footer-copyright
+{
+    font-size: 1.6rem;
+}

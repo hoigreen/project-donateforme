@@ -1,0 +1,27 @@
+:root {
+    --text-white: #fff;
+    --text-black: #000;
+    --text-color: #333;
+    --primary-color: #ee4d2d;
+    --star-gold: #FFCE3E;
+    --border-color: #dbdbdb;
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height) );
+    --header-sort-bar-height: 46px;
+    --background-color: #f8f9fa;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
